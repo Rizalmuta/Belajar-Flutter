@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       body: Container(
         width: MediaQuery.of(context).size.width, // lebar sesuai layar
-        height: MediaQuery.of(context).size.height, // tinggi sesuai layar
+        height: MediaQuery.of(context).size.height,
         decoration: const BoxDecoration(
           image: DecorationImage(
             image: AssetImage("Assets/Images/backround.jpg"),
@@ -51,9 +51,9 @@ class Home extends StatelessWidget {
                ),
                ),
                const Text(
-               "Smk Wikrama Bogor",
+               "Vocational High School\nStudent at SMK Wikrama Bogor",
                style: TextStyle(
-               fontSize: 30.0,
+               fontSize: 20.0,
                fontWeight: FontWeight.bold,
                color: Colors.red,
                ),
